@@ -15,7 +15,7 @@
         <h2>Connectez-vous à votre espace client</h2>
     </header>
     <?php
-       
+        include_once __DIR__ .'/controller/session.inc.php'
         /* quelque chose ici */
 
     ?>

@@ -13,7 +13,7 @@ if (isset($_SESSION['last_activity'])) {
         // Détruire la session si elle est expirée
         session_unset();
         session_destroy();
-        echo "Votre session a expiré. Veuillez vous reconnecter.";
+        print "<p>Votre session a expiré. Veuillez vous reconnecter.</p>";
         exit();
     }
 }
