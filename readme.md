@@ -1,4 +1,4 @@
-# 🚀 Connexion client BDD 
+# 🚀 Connexion client : password_hash()
 ```php
 
  $hashed_password = password_hash("1984", PASSWORD_DEFAULT);
