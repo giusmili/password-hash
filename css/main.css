@@ -1,0 +1,17 @@
+header{
+    text-align: center;
+    padding: 2rem 0;
+}
+.button, button, input[type="button"], input[type="reset"], input[type="submit"]{
+    background-color: #222;
+    color: #fff;
+    border: 0;
+}
+
+main{
+    max-width: 80rem;
+    margin: 0 auto;
+}
+fieldset legend{
+    font-weight: normal;
+}
